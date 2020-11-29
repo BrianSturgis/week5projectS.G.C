@@ -12,4 +12,8 @@ describe('EarthAge', () => {
     expect(age.lifeLeft).toEqual(0);
   });
 });
+ test('should create array in this.life of the Earthage object', () => {
+    const array = new Earthage([0.24, 0.62, 1.88, 11.86]);
+    expect(array.alienYears).toEqual([0.24, 0.62, 1.88, 11.86]);
+}); 
 
