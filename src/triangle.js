@@ -1,13 +1,13 @@
 export default class Earthage {
   constructor() {
-    this.value = 0;
+    this.input = 0;
     this.alienYears = [];
-    this.life = [];
+    this.lifeexp = [];
     this.pastLife = 0;
     this.lifeLeft = 0;
   }
 
-  
+
 }
 
 
