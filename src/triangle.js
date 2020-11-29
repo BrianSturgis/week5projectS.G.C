@@ -1,3 +1,6 @@
+
+
+
 export default class Earthage {
   constructor() {
     this.input = userInput;
@@ -23,9 +26,9 @@ export default class Earthage {
 
 let userInput = 70;
 
-// let joe = new Earthage();
+let joe = new Earthage();
 // joe.ageCheck();
-// joe.alienAge();
+joe.alienAge();
 // // joe.alienExpectancy();
 
-// console.log(joe);
+console.log(joe);

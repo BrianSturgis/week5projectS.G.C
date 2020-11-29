@@ -46,9 +46,9 @@ placeholder text in testing graph!
 
 | class Earthage {}, |  |
 | ------| -----------|
-| test:   |                         |
+| test:  should correctly create a Earthage object of five key values |                         |
 |  
-| expect:  | (Order).toEqual{pie,sauce,firstTopping,size,totalPrice}. |
+| expect: EarthAge === (70,[],[],0,0); |  |
 
 
 
