@@ -18,10 +18,3 @@ import Triangle from './triangle.js';
 
 
 
-  // $('#triangle-checker-form').submit(function(event) {
-  //   event.preventDefault();
-  //   const length1 = $('#length1').val();
-    
-  //   const response = triangle.checkType();
-  //   // $('#response').append("<p>" + response + "</p>");
-  // });
