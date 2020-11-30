@@ -8,8 +8,9 @@ describe('EarthAge', () => {
 
     beforeEach(() => {
       earthAge = new EarthAge(70,[],[],0,0);
-      earthAge.alienAge();
       earthAge.alienExpectancy();
+      earthAge.alienAge();
+      // earthAge.alienExpectancy();
 
   });
   
@@ -27,9 +28,12 @@ describe('EarthAge', () => {
   test('should calculate 70 years into Mars years', () => {
       expect(earthAge.alienYears[2]).toEqual(37);
 });
-    test('should calculate 70 years into jupiter years',() => {
-
-    });
+  test('should calculate 70 years into jupiter years',() => {
+      expect(earthAge.alienYears[3]).toEqual(6);
+});
+  test('should calculate 70 years into years left to live in Mercury years',() => {
+      expect(earthAge.life[3]).toEqual(0);
+});
 
 
 
