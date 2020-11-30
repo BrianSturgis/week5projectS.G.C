@@ -18,6 +18,18 @@ export default class EarthAge {
         this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
       }
     }
+    ageCheck(){
+      let age;
+      if (userInput == 73 || userInput < 73) {
+        age = 73 - userInput;
+        this.lifeLeft = age;
+      }else if (userInput > 73) {
+        age = userInput - 73;
+        this.pastLife = age;
+      }
+      }
+
+
 }
 
 
