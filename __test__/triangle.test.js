@@ -25,7 +25,6 @@ describe('EarthAge', () => {
   });
 
 
-
   test('should correctly determine whether three lengths are not a triangle', () => {
     expect(earthAge.life[2]).toEqual(2);
   });
