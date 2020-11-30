@@ -52,9 +52,8 @@ describe('EarthAge', () => {
       earthAge.ageCheck();
 
       test('should determine how many years left berfore 73') , () => {
-        
-      }
 
+      }
 
 
 });
