@@ -12,6 +12,12 @@ export default class EarthAge {
         this.alienYears.push(Math.round(userInput / array[i]));
       }
     }
+    alienExpectancy(){
+      let array = [0.24, 0.62, 1.88, 11.86];
+      for(let i = 0; i < array.length; i++) {
+        this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
+      }
+    }
 }
 
 

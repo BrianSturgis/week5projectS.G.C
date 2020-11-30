@@ -9,6 +9,7 @@ describe('EarthAge', () => {
     beforeEach(() => {
       earthAge = new EarthAge(70,[],[],0,0);
       earthAge.alienAge();
+      earthAge.alienExpectancy();
 
   });
   
@@ -18,13 +19,19 @@ describe('EarthAge', () => {
     expect(earthAge.lifeLeft).toEqual(0);
 });
   test('should calculate 70 years into Mercury years', () => {
-    expect(earthAge.alienYears[0]).toEqual(292);
+      expect(earthAge.alienYears[0]).toEqual(292);
 });
-  test('should correctly determine whether three lengths are not a triangle', () => {
-    expect(earthAge.alienYears[1]).toEqual(113);
-  });
+  test('should calculate 70 years into Venus years', () => {
+      expect(earthAge.alienYears[1]).toEqual(113);
+});
+  test('should calculate 70 years into Mars years', () => {
+      expect(earthAge.alienYears[2]).toEqual(37);
+});
+    test('should calculate 70 years into jupiter years',() => {
 
-  test('should correctly determine whether three lengths are not a triangle', () => {
-    expect(earthAge.life[2]).toEqual(2);
-  });
+    });
+
+
+
+
 });
