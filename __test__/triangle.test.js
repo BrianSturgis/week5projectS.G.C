@@ -10,7 +10,7 @@ describe('EarthAge', () => {
       earthAge = new EarthAge(70,[],[],0,0);
       earthAge.alienExpectancy();
       earthAge.alienAge();
-  });
+});
   
   test('Should create and instance of EarthAge', () => {
       expect(earthAge.value).toEqual(70);
@@ -41,18 +41,4 @@ describe('EarthAge', () => {
   test('should calculate 70 years into years left to live in Mars years',() => {
       expect(earthAge.life[0]).toEqual(0);
 });
-
-describe('EarthAge', () => {
-
-  let earthAge;
-
-    beforeEach(() => {
-      earthAge = new EarthAge(70,[],[],0,0);
-      
-      earthAge.ageCheck();
-
-      test('should determine how many years left berfore 73') , () => {
-
-      }
-
 });

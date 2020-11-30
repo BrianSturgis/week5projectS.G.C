@@ -6,7 +6,11 @@ import './css/styles.css';
 import EarthAge from '../js/triangle.js';
 
 
-
+// let output = new Earthage();
+// output.ageCheck();
+// output.alienAge();
+// output.alienExpectancy();
+// console.log(output);
 
 
 
