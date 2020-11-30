@@ -1,3 +1,12 @@
+
+
+// import $ from 'jquery';
+// import 'bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import './css/styles.css';
+
+
+
 export default class EarthAge {
 constructor() {
   this.value = userInput;
