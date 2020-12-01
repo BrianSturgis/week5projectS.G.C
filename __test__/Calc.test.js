@@ -16,7 +16,7 @@ describe('EarthAge', () => {
   test('Should create and instance of EarthAge', () => {
       expect(earthAge.value).toEqual(70);
       expect(earthAge.pastLife).toEqual(0);
-      expect(earthAge.lifeLeft).toEqual(0);
+      expect(earthAge.lifeLeft).toEqual(3);
 });
   test('should calculate 70 years into Mercury years', () => {
       expect(earthAge.alienYears[0]).toEqual(292);
@@ -42,5 +42,5 @@ describe('EarthAge', () => {
   test('should calculate 70 years into years left to live in Mars years',() => {
       expect(earthAge.life[0]).toEqual(0);
 });
-    test('should determine whheter number is equ')
+    
 });
