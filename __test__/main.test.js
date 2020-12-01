@@ -1,5 +1,9 @@
-import { TestScheduler } from 'jest';
-import EarthAge from '../js/triangle.js';
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+
+import EarthAge from '../js/Calc.js';
 
 
 

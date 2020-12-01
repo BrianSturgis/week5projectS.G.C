@@ -1,6 +1,6 @@
 
 
-import EarthAge from '../js/triangle.js';
+import EarthAge from '../js/Calc.js';
 
 describe('EarthAge', () => {
 
