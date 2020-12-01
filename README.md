@@ -1,4 +1,4 @@
-# Week 5 Friday project "Currency Exchanger"
+# Week 5 Friday project "SUPER GALACTIC AGE CALCULATOR"
 
 ##### HTML,CSS, and Javascript.   11/20/2020
 
@@ -32,9 +32,8 @@ The project should automatically launch using your default application(s).
 
 ## Stretch goals
   -a user interface
-  -improved and animted user interface
+  -improved and animated user interface
   
-
 
 ## Support and contact details
 email Brian Sturgis @ <sturujisu@gmail.com>
@@ -74,7 +73,7 @@ expect:  | (earthAge.alienYears[1]).toEqual(113) |
 | alienExpectancy(); |  |
 | ------| -----------|
 | test:   |should calculate 70 years into years left to live in Mercury years |
-| expect:  | (earthAge.life[3]).toEqual(0) |
+| expect:  | (earthAge.life[3]).toEqual(0) |  
 
 | alienExpectancy(); |  |
 | ------| -----------|

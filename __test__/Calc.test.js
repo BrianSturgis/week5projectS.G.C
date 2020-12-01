@@ -12,6 +12,9 @@ describe('EarthAge', () => {
       earthAge.alienAge();
       earthAge.ageCheck();
 });
+  test('should create a the difference of 70 and 73', () => {
+        expect(age).toEqual(0);
+    });
   
   test('Should create and instance of EarthAge', () => {
       expect(earthAge.value).toEqual(70);
