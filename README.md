@@ -56,14 +56,10 @@ expect: EarthAge === (70,0,3) |  |
 test:   | should calculate 70 years into Mercury years  |
 expect:  | (earthAge.alienYears[0]).toEqual(292) |
 
-
-
 | alienAge(); |  |
 | ------| -----------|
 test:   | should calculate 70 years into Venus years |
 expect:  | (earthAge.alienYears[1]).toEqual(113) |
-
-
 
 | alienAge(); |  |
 | ------| -----------|
@@ -77,8 +73,28 @@ expect:  | (earthAge.alienYears[1]).toEqual(113) |
 
 | alienExpectancy(); |  |
 | ------| -----------|
-| test:   |should calculate 70 years into jupiter years |
-| expect:  | (earthAge.alienYears[3]).toEqual(6) |
+| test:   |should calculate 70 years into years left to live in Mercury years |
+| expect:  | (earthAge.life[3]).toEqual(0) |
+
+| alienExpectancy(); |  |
+| ------| -----------|
+| test:   |should calculate 70 years into years left to live in Venus years |
+| expect:  | (earthAge.life[2]).toEqual(0) |
+
+| alienExpectancy(); |  |
+| ------| -----------|
+| test:   |should calculate 70 years into years left to live in Mars years |
+| expect:  | (earthAge.life[1]).toEqual(0) |
+
+| alienExpectancy(); |  |
+| ------| -----------|
+| test:   |should calculate 70 years into years left to live in Venus years |
+| expect:  | (earthAge.life[0]).toEqual(0) |
+
+
+
+
+
 
 
 
