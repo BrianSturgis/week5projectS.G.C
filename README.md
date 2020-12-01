@@ -1,4 +1,4 @@
-# Week 6 Friday project "Currency Exchanger"
+# Week 5 Friday project "Currency Exchanger"
 
 ##### HTML,CSS, and Javascript.   11/20/2020
 
@@ -7,9 +7,7 @@
 
 ## Detailed Description
 
-This is an currency exchange application that will take in a amount in U.S dollars and convert it into a foriegn currency.  To come to this solution the application will use "exchange rate API" and javascript to provide solutions.
-
-This application
+This application calculates your age in years on four other planets based on the age you give it.  In its current state it uses a fixed age of 70 to do provide an answer.
 
 
 ## Setup/Installation Requirements
@@ -23,12 +21,14 @@ GIT HUB
 - open the index.html file to view the websi
 The project should automatically launch using your default application(s).
 
-API info
+
 
 
 ## Known Bugs
-  -This application and its core functions are not complete and working at this time
-  -there are three bootsrtap libraries in ./css/ any version with out these brings up console warnings and project size is so small that they have been left in.  
+- This application and its core functions are not complete and working at this time
+- there are three bootsrtap libraries in ./css/ any version with out these brings up console warnings and project size is so small that they have been left in.  
+- class not importing to main.js from Calc.js
+- having issues getting a response in a console to show the contents of the class holding the output
 
 ## Stretch goals
   -a user interface
@@ -44,45 +44,41 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 placeholder text in testing graph!
 
-| class Earthage {}, |  |
+| Earthage {}, |  |
 | ------| -----------|
-| test:  should correctly create a Earthage object of five key values |                         |
-|  
-| expect: EarthAge === (70,[],[],0,0); |  |
+test:  Should create and instance of EarthAge |                         
+expect: EarthAge === (70,0,3) |  |
 
 
 
 | alienAge(); |  |
 | ------| -----------|
-| test:   | will total the sum of object keys |
-| 
-| expect:  | (finalCost) .toEqual(sum of object values) |
+test:   | should calculate 70 years into Mercury years  |
+expect:  | (earthAge.alienYears[0]).toEqual(292) |
 
 
+
+| alienAge(); |  |
+| ------| -----------|
+test:   | should calculate 70 years into Venus years |
+expect:  | (earthAge.alienYears[1]).toEqual(113) |
+
+
+
+| alienAge(); |  |
+| ------| -----------|
+| test:   |should calculate 70 years into Mars years |
+| expect:  | (earthAge.alienYears[2]).toEqual(37)) |
+
+| alienAge(); |  |
+| ------| -----------|
+| test:   |should calculate 70 years into jupiter years |
+| expect:  | (earthAge.alienYears[3]).toEqual(6) |
 
 | alienExpectancy(); |  |
 | ------| -----------|
-| test:   | will total the sum of object keys |
-| 
-| expect:  | (finalCost) .toEqual(sum of object values) |
-
-
-
-| ageCheck(), |  |
-| ------| -----------|
-| test:   | will total the sum of object keys |
-| 
-| expect:  | (finalCost) .toEqual(sum of object values) |
-
-
-
-| ageCheck(), |  |
-| ------| -----------|
-| test:   | will total the sum of object keys |
-| 
-| expect:  | (finalCost) .toEqual(sum of object values) |
-
-
+| test:   |should calculate 70 years into jupiter years |
+| expect:  | (earthAge.alienYears[3]).toEqual(6) |
 
 
 

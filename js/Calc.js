@@ -1,11 +1,15 @@
+
+let userInput = 70;
+
 export default class EarthAge {
-constructor(value,alienYears,life,pastLife,lifeLeft) {
+constructor() {
   this.value = userInput;
   this.alienYears = [];
   this.life = [];
   this.pastLife = 0;
   this.lifeLeft = 0;
 }
+  
   alienAge(){
   let array = [0.24, 0.62, 1.88, 11.86];
   for(let i = 0; i < array.length; i++) {
@@ -29,10 +33,5 @@ constructor(value,alienYears,life,pastLife,lifeLeft) {
   }
   }
 }
-let userInput = 70;
+// let userInput = 70;
 
-// let earthAge = new Earthage();
-// output.ageCheck();
-// output.alienAge();
-// output.alienExpectancy();
-// console.log(earthAge);
