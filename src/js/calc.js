@@ -1,9 +1,8 @@
 
-let userInput = 70;
 
 export default class EarthAge {
-constructor() {
-  this.value = userInput;
+constructor(userInput) {
+  this.age = userInput;
   this.alienYears = [];
   this.life = [];
   this.pastLife = 0;
@@ -23,13 +22,14 @@ constructor() {
   }
   }
   ageCheck(){
-  let age;
+  let ageLeft;
+  let agePast;
   if (userInput == 73 || userInput < 73) {
-    age = 73 - userInput;
-    this.lifeLeft = age;
+    ageleft = 73 - userInput; 
+    this.lifeLeft = ageLeft;
   }else if (userInput > 73) {
-    age = userInput - 73;
-    this.pastLife = age;
+    agePast = userInput - 73;
+    this.pastLife = agePast;
   }
   }
 }

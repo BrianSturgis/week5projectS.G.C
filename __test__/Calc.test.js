@@ -1,20 +1,18 @@
 
 
-import EarthAge from '../js/Calc.js';
+import EarthAge from '../src/js/calc.js.js';
 
 describe('EarthAge', () => {
 
   let earthAge;
-
+  
     beforeEach(() => {
-      earthAge = new EarthAge(70,[],[],0,0);
+      earthAge = new EarthAge(70,0,0,0,0);
       earthAge.alienExpectancy();
       earthAge.alienAge();
       earthAge.ageCheck();
 });
-  test('should create a the difference of 70 and 73', () => {
-        expect(age).toEqual(0);
-    });
+  
   
   test('Should create and instance of EarthAge', () => {
       expect(earthAge.value).toEqual(70);
