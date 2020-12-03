@@ -10,7 +10,7 @@ constructor(age,pastLife,lifeLeft) {
   alienAge(){
   let array = [0.24, 0.62, 1.88, 11.86];
   for(let i = 0; i < array.length; i++) {
-    this.alienYears.push(Math.round(age / array[i]));
+    this.alienYears.push(Math.round(this.age / array[i])); 
   }
   }
   alienExpectancy(){
@@ -22,14 +22,12 @@ constructor(age,pastLife,lifeLeft) {
   ageCheck(){
   let ageLeft;
   let agePast;
-  if (userInput == 73 || userInput < 73) {
-    ageleft = 73 - userInput; 
+  if (this.age == 73 || this.age < 73) {
+    ageLeft = 73 - this.age; 
     this.lifeLeft = ageLeft;
-  }else if (userInput > 73) {
-    agePast = userInput - 73;
+  }else if (this.age > 73) {
+    agePast = this.age - 73;
     this.pastLife = agePast;
   }
   }
 }
-
-
