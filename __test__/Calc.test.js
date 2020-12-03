@@ -1,24 +1,21 @@
-
-
-import EarthAge from '../src/js/calc.js.js';
-
+import EarthAge from './../src/js/calc.js';
+let userInput = 70;
 describe('EarthAge', () => {
 
   let earthAge;
-  
+  // let userInput = 70;
+
     beforeEach(() => {
-      earthAge = new EarthAge(70,0,0,0,0);
-      earthAge.alienExpectancy();
-      earthAge.alienAge();
-      earthAge.ageCheck();
+      earthAge = new EarthAge(70);
+      // earthAge.alienExpectancy();
+      // earthAge.alienAge();
+      // earthAge.ageCheck();
 });
-  
-  
   test('Should create and instance of EarthAge', () => {
-      expect(earthAge.value).toEqual(70);
+      expect(earthAge.age).toEqual(0);
       expect(earthAge.pastLife).toEqual(0);
-      expect(earthAge.lifeLeft).toEqual(3);
-});
+      expect(earthAge.lifeLeft).toEqual(0);
+  });
   test('should calculate 70 years into Mercury years', () => {
       expect(earthAge.alienYears[0]).toEqual(292);
 });
@@ -43,5 +40,4 @@ describe('EarthAge', () => {
   test('should calculate 70 years into years left to live in Mars years',() => {
       expect(earthAge.life[0]).toEqual(0);
 });
-    
-});
+});    

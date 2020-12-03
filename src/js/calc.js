@@ -1,18 +1,16 @@
 
-
 export default class EarthAge {
-constructor(userInput) {
-  this.age = userInput;
+constructor(age,pastLife,lifeLeft) {
+  this.age = age;
+  this.pastLife = pastLife;
+  this.lifeLeft = lifeLeft;
   this.alienYears = [];
   this.life = [];
-  this.pastLife = 0;
-  this.lifeLeft = 0;
 }
-  
   alienAge(){
   let array = [0.24, 0.62, 1.88, 11.86];
   for(let i = 0; i < array.length; i++) {
-    this.alienYears.push(Math.round(userInput / array[i]));
+    this.alienYears.push(Math.round(age / array[i]));
   }
   }
   alienExpectancy(){
@@ -33,5 +31,5 @@ constructor(userInput) {
   }
   }
 }
-// let userInput = 70;
+
 
