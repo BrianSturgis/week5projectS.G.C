@@ -48,7 +48,6 @@ describe('EarthAge', () => {
       earthAge.ageCheck();
       earthAge.alienExpectancy();
       expect(earthAge.life[3]).toEqual(0); 
-    
   });
     test('',() => {
       let overEarthAge = new EarthAge (76,3,0)
