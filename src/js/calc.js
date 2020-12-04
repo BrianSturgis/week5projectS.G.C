@@ -1,4 +1,4 @@
-// eslint disable
+
 export default class EarthAge {
   constructor(userInput, pastLife,lifeLeft) {
     this.age = userInput;
@@ -25,11 +25,11 @@ export default class EarthAge {
     }
     }
 
-  // alienExpectancy(){
-  //   let array = [0.24, 0.62, 1.88, 11.86];
-  //   for(let i = 0; i < array.length; i++) {
-  //     this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
-  //   }
-  // }
+  alienExpectancy(){
+    let array = [0.24, 0.62, 1.88, 11.86];
+    for(let i = 0; i < array.length; i++) {
+      this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
+    }
+  }
   
   } 
