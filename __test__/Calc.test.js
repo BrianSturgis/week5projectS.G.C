@@ -25,19 +25,49 @@ describe('EarthAge', () => {
     test('should calculate 70 years into jupiter years',() => {
         expect(earthAge.alienYears[3]).toEqual(6);
   });
-    test('should calculate 70 years into years left to live in Mercury years',() => {
-        expect(earthAge.lifeLeft).toEqual(3);
+    test('should calculate the difference of 70 and 73',() => {
+      expect(earthAge.pastLife).toEqual(0);  
+      expect(earthAge.lifeLeft).toEqual(3);
   });
-  test('should calculate 70 years into years left to live in Mercury years',() => {
-    expect(earthAge.lifeLeft).toEqual(3);
-    expect(earthAge.pastLife).toEqual(0);
+    test('should calculate 3 years into Mercury years',() => {
+      expect(earthAge.life[0]).toEqual(13);
 });
-    test('should calculate 70 years into years left to live in Venus years',() => {
-        expect(earthAge.life[0]).toEqual(13);
+    test('should calculate 3 years into Venus years',() => {
         expect(earthAge.life[1]).toEqual(5);
-        expect(earthAge.life[2]).toEqual(2);
-        expect(earthAge.life[3]).toEqual(0);
-        
   });
-  // create 4 more tests to 
+    test('should calculate 3 years into Mars years',() => {
+      expect(earthAge.life[2]).toEqual(2); 
+    
+});
+    test('should calculate 3 years into Mars years',() => {
+      expect(earthAge.life[3]).toEqual(0); 
+});
+    test('',() => {
+      let overEarthAge = new EarthAge (76,3,0)
+      // earthAge.alienAge();
+      earthAge.ageCheck();
+      earthAge.alienExpectancy();
+      expect(earthAge.life[3]).toEqual(0); 
+    
+  });
+    test('',() => {
+      let overEarthAge = new EarthAge (76,3,0)
+      // earthAge.alienAge();
+      earthAge.ageCheck();
+      earthAge.alienExpectancy();
+      expect(earthAge.life[2]).toEqual(2); 
+  
+});
+
+    test('',() => {
+      let overEarthAge = new EarthAge (76,3,0)
+      // earthAge.alienAge();
+      earthAge.ageCheck();
+      earthAge.alienExpectancy();
+      expect(earthAge.life[1]).toEqual(5); 
+});
+
+        
+
+
 });    

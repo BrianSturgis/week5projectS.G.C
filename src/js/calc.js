@@ -7,7 +7,6 @@ export default class EarthAge {
     this.alienYears = [];
     this.life = [];
   }
-
   alienAge(){
     let array = [0.24, 0.62, 1.88, 11.86];
     for(let i = 0; i < array.length; i++) {
@@ -23,13 +22,11 @@ export default class EarthAge {
       age = this.age - 73;
       this.pastLife = age;
     }
-    }
-
+  }
   alienExpectancy(){
     let array = [0.24, 0.62, 1.88, 11.86];
     for(let i = 0; i < array.length; i++) {
       this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
     }
   }
-  
   } 
