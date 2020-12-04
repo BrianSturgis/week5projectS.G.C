@@ -37,7 +37,6 @@ describe('EarthAge', () => {
   });
     test('should calculate 3 years into Mars years',() => {
       expect(earthAge.life[2]).toEqual(2); 
-    
 });
     test('should calculate 3 years into Mars years',() => {
       expect(earthAge.life[3]).toEqual(0); 
