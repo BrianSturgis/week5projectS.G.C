@@ -23,9 +23,9 @@ describe('EarthAge', () => {
   test('should calculate 70 years into Venus years', () => {
       expect(earthAge.alienYears[1]).toEqual(113);
 });
-//   test('should calculate 70 years into Mars years', () => {
-//       expect(earthAge.alienYears[2]).toEqual(37);
-// });
+  test('should calculate 70 years into Mars years', () => {
+      expect(earthAge.alienYears[2]).toEqual(37);
+});
 //   test('should calculate 70 years into jupiter years',() => {
 //       expect(earthAge.alienYears[3]).toEqual(6);
 // });
