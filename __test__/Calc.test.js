@@ -41,6 +41,14 @@ describe('EarthAge', () => {
 });
     test('should calculate 3 years into Mars years',() => {
       expect(earthAge.life[3]).toEqual(0); 
+}); 
+    test('',() => {
+      let overEarthAge = new EarthAge (76,3,0)
+      // earthAge.alienAge();
+      earthAge.ageCheck();
+      earthAge.alienExpectancy();
+      expect(earthAge.pastLife).toEqual(3);  
+      expect(earthAge.lifeLeft).toEqual(0);
 });
     test('',() => {
       let overEarthAge = new EarthAge (76,3,0)
@@ -55,9 +63,7 @@ describe('EarthAge', () => {
       earthAge.ageCheck();
       earthAge.alienExpectancy();
       expect(earthAge.life[2]).toEqual(2); 
-  
 });
-
     test('',() => {
       let overEarthAge = new EarthAge (76,3,0)
       // earthAge.alienAge();
@@ -65,8 +71,11 @@ describe('EarthAge', () => {
       earthAge.alienExpectancy();
       expect(earthAge.life[1]).toEqual(5); 
 });
-
-        
-
-
+    test('',() => {
+      let overEarthAge = new EarthAge (76,3,0)
+      // earthAge.alienAge();
+      earthAge.ageCheck();
+      earthAge.alienExpectancy();
+      expect(earthAge.life[0]).toEqual(5); 
+});
 });    
