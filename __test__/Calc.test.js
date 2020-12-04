@@ -42,39 +42,39 @@ describe('EarthAge', () => {
       expect(earthAge.life[3]).toEqual(0); 
 }); 
     test('',() => {
-      let overEarthAge = new EarthAge (76,3,0)
-      // earthAge.alienAge();
-      earthAge.ageCheck();
-      earthAge.alienExpectancy();
-      expect(earthAge.pastLife).toEqual(3);  
-      expect(earthAge.lifeLeft).toEqual(0);
+      let overEarthAge = new EarthAge (76,3,0);
+      overEarthAge.alienAge();
+      overEarthAge.ageCheck();
+      overEarthAge.alienExpectancy();
+      expect(overEarthAge.pastLife).toEqual(3);  
+      expect(overEarthAge.lifeLeft).toEqual(0);
 });
     test('',() => {
       let overEarthAge = new EarthAge (76,3,0)
-      // earthAge.alienAge();
-      earthAge.ageCheck();
-      earthAge.alienExpectancy();
-      expect(earthAge.life[3]).toEqual(0); 
+      earthAge.alienAge();
+      overEarthAge.ageCheck();
+      overEarthAge.alienExpectancy();
+      expect(overEarthAge.life[3]).toEqual(0); 
   });
     test('',() => {
       let overEarthAge = new EarthAge (76,3,0)
-      // earthAge.alienAge();
-      earthAge.ageCheck();
-      earthAge.alienExpectancy();
-      expect(earthAge.life[2]).toEqual(2); 
+      earthAge.alienAge();
+      overEarthAge.ageCheck();
+      overEarthAge.alienExpectancy();
+      expect(overEarthAge.life[2]).toEqual(2); 
 });
     test('',() => {
       let overEarthAge = new EarthAge (76,3,0)
-      // earthAge.alienAge();
-      earthAge.ageCheck();
-      earthAge.alienExpectancy();
-      expect(earthAge.life[1]).toEqual(5); 
+      overEarthAge.alienAge();
+      overEarthAge.ageCheck();
+      overEarthAge.alienExpectancy();
+      expect(overEarthAge.life[1]).toEqual(5); 
 });
     test('',() => {
       let overEarthAge = new EarthAge (76,3,0)
-      // earthAge.alienAge();
-      earthAge.ageCheck();
-      earthAge.alienExpectancy();
-      expect(earthAge.life[0]).toEqual(5); 
+      overEarthAge.alienAge();
+      overEarthAge.ageCheck();
+      overEarthAge.alienExpectancy();
+      expect(overEarthAge.life[0]).toEqual(5); 
 });
 });    
