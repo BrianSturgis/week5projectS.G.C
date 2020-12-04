@@ -29,6 +29,7 @@ describe('EarthAge', () => {
   test('should calculate 70 years into jupiter years',() => {
       expect(earthAge.alienYears[3]).toEqual(6);
 });
+
   test('should calculate 70 years into years left to live in Mercury years',() => {
       expect(earthAge.life[3]).toEqual(4);
 });
