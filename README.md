@@ -21,6 +21,7 @@ GIT HUB
 - open the index.html file to view the websi
 The project should automatically launch using your default application(s).
 
+Dependencies
 to run this project locally you will need to have node. You can check if you have node by running node -v in the command line. If you do not have node please find more information and download here https://nodejs.org/en/download/
 
 If you have node already then run npm install in command line to gain access to webpack.
@@ -31,8 +32,8 @@ If you have node already then run npm install in command line to gain access to 
 
 
 ## Stretch goals
-  -a user interface
-  -improved and animated user interface
+-a user interface
+-improved and animated user interface
   
 
 ## Support and contact details
@@ -108,6 +109,8 @@ expect:  | (earthAge.alienYears[1]).toEqual(113) |
 * jest
 * Babel
 * lint
+* WWEBPACK
+* NPM
   
 
 
