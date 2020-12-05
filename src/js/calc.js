@@ -1,4 +1,3 @@
-
 export default class EarthAge {
   constructor(userInput, pastLife,lifeLeft) {
     this.age = userInput;
@@ -15,11 +14,12 @@ export default class EarthAge {
   }
   ageCheck(){
     let age;
-    if (this.age == 73 || this.age < 73) {
-      age = 73 - this.age;
+    let lifeEx = 73;
+    if (this.age == `${lifeEx}` || this.age < `${lifeEx}`) {
+      age = `${lifeEx}` - this.age;
       this.lifeLeft = age;
-    }else if (this.age > 73) {
-      age = this.age - 73;
+    }else if (this.age >`${lifeEx}`) {
+      age = this.age - `${lifeEx}`;
       this.pastLife = age;
     }
   }
@@ -29,4 +29,4 @@ export default class EarthAge {
       this.life.push(Math.round(this.pastLife / array[i] || this.lifeLeft / array[i]));
     }
   }
-  } 
+} 
