@@ -1,4 +1,5 @@
 import EarthAge from './../src/js/calc.js';
+  
 describe('EarthAge', () => {
     let earthAge;
     beforeEach(() => {

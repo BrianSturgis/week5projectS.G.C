@@ -21,14 +21,14 @@ GIT HUB
 - open the index.html file to view the websi
 The project should automatically launch using your default application(s).
 
+to run this project locally you will need to have node. You can check if you have node by running node -v in the command line. If you do not have node please find more information and download here https://nodejs.org/en/download/
 
+If you have node already then run npm install in command line to gain access to webpack.
 
 
 ## Known Bugs
-- This application and its core functions are not complete and working at this time
 - there are three bootsrtap libraries in ./css/ any version with out these brings up console warnings and project size is so small that they have been left in.  
-- class not importing to main.js from Calc.js
-- having issues getting a response in a console to show the contents of the class holding the output
+
 
 ## Stretch goals
   -a user interface
