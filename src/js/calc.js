@@ -1,8 +1,8 @@
 export default class EarthAge {
-  constructor(userInput, pastLife,lifeLeft) {
+  constructor(userInput) {
     this.age = userInput;
-    this.pastLife = pastLife;
-    this.lifeLeft = lifeLeft;
+    this.pastLife = 0;
+    this.lifeLeft = 0;
     this.alienYears = [];
     this.life = [];
   }
@@ -15,12 +15,14 @@ export default class EarthAge {
   ageCheck(){
     let age;
     let lifeEx = 73;
-    if (this.age == `${lifeEx}` || this.age < `${lifeEx}`) {
-      age = `${lifeEx}` - this.age;
+    if (this.age == lifeEx || this.age < lifeEx) {
+      age = lifeEx - this.age;
       this.lifeLeft = age;
-    }else if (this.age >`${lifeEx}`) {
-      age = this.age - `${lifeEx}`;
+      return(`you look pretty good for${age}.`);
+    }else if (this.age > lifeEx) {
+      age = this.age - lifeEx;
       this.pastLife = age;
+      return(`you look pretty good for${age}.`);
     }
   }
   alienExpectancy(){
