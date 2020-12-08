@@ -1,9 +1,11 @@
-# Week 5 Friday project "SUPER GALACTIC AGE CALCULATOR"
+<h1 align="center">SUPER GALACTIC AGE CALCULATOR</h1>
+<div align="center">
+<img src="https://github.com/BrianSturgis.png" width="200px" height="auto" >
+</div>
 
-##### HTML,CSS, and Javascript.   11/20/2020
+<p align="center"> Authored by Brian Sturgis</p>
 
-#### By **Brian Sturgis**
-
+<p align="center">Updated on Dec 7th, 2020</p>
 
 ## Detailed Description
 
