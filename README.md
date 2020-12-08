@@ -21,9 +21,10 @@ CLONING THIS APPLICATION FROM GIT HUB
 - using git commands clone to local repo
 - or click "download" and unpack on machine
 
-USING THIS APPLICATION
+## USING THIS APPLICATION
 - This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
-- After installing node, navigate to the root directory of the cloned repo and type in "npm install".
+- After installing node, navigate to the root directory of the cloned repo in a as Command Prompt or Git Bash. 
+- type in "npm install".
 - Then type in "npm run build".
 
 If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
