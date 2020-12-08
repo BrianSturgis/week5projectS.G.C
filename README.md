@@ -12,19 +12,22 @@ This application calculates your age in years on four other planets based on the
 
 ## Setup/Installation Requirements
 
-GIT HUB 
+CLONING THIS APPLICATION FROM GIT HUB 
 - repository location (https://github.com/BrianSturgis/week5projectS.C.G
 - open through a git termianl or clone editor.
 - got to repo location.
 - using git commands clone to local repo
 - or click "download" and unpack on machine
-- open the index.html file to view the websi
-The project should automatically launch using your default application(s).
 
-Dependencies
-to run this project locally you will need to have node. You can check if you have node by running node -v in the command line. If you do not have node please find more information and download here https://nodejs.org/en/download/
+USING THIS APPLICATION
+If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 
-If you have node already then run npm install in command line to gain access to webpack.
+This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
+After installing node, navigate to the root directory of the cloned repo and type in "npm install".
+Then type in "npm run build".
+If you use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test".
+If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
+
 
 
 ## Known Bugs

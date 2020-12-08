@@ -18,11 +18,11 @@ export default class EarthAge {
     if (this.age == lifeEx || this.age < lifeEx) {
       age = lifeEx - this.age;
       this.lifeLeft = age;
-      return(`you look pretty good for${age}.`);
+      console.log(`you look pretty good for${age}.`);
     }else if (this.age > lifeEx) {
       age = this.age - lifeEx;
       this.pastLife = age;
-      return(`you look pretty good for${age}.`);
+      console.log(`you look pretty good for${age}.`);
     }
   }
   alienExpectancy(){
