@@ -22,11 +22,10 @@ CLONING THIS APPLICATION FROM GIT HUB
 - or click "download" and unpack on machine
 
 USING THIS APPLICATION
-If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
-
 This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
 After installing node, navigate to the root directory of the cloned repo and type in "npm install".
 Then type in "npm run build".
+If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 If you use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test".
 If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 
